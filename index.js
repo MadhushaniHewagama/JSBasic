@@ -385,4 +385,10 @@ const cap=captalizeString("hello");
 console.log(cap);
 */
 //* use to import everything
-import * as sub from "capitalize_strings"
+//import * as sub from "capitalize_strings"
+
+let str= "dfuaaaghahd"
+//replace first character
+console.log(str.replace("d","$"))
+//replace all characters
+console.log(str.replace(/a/g,"*"))
